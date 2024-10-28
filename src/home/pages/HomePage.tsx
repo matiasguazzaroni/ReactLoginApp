@@ -1,7 +1,10 @@
-import React from 'react'
+import { Typography } from "@mui/material"
+import { HomeLayout } from "../layout/HomeLayout"
 
 export const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <HomeLayout>
+      <Typography variant="h5">HOME</Typography>
+    </HomeLayout>
   )
 }
